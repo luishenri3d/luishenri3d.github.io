@@ -116,7 +116,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Montserrat, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -3240,7 +3240,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #223127;
 		}
 
 		.wrapper.style1-alt {
@@ -3248,7 +3248,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #223127;
 		}
 
 		.wrapper.style2-alt {
@@ -3256,7 +3256,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #223127;
 		}
 
 		.wrapper.style3-alt {
@@ -3907,3 +3907,49 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* Sharp Grotesk Medium Italic */
+@font-face {
+    font-family: 'Sharp Grotesk Medium Italic';
+    src: url('SharpGrotesk-MediumItalic20.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Sharp Grotesk Semibold */
+@font-face {
+    font-family: 'Sharp Grotesk Semibold';
+    src: url('SharpGrotesk-Semibold20.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.logo{
+    margin:0;
+    line-height:1;
+    font-size:4rem;
+    letter-spacing:-0.03em;
+}
+
+.logo-conselho{
+    font-family:'Bree Serif', serif;
+    font-weight:400;
+}
+
+.logo-sem{
+    font-family:'Sharp Grotesk Medium Italic', sans-serif;
+    font-weight:500;
+    font-style:italic;
+    font-size:0.55em;
+    vertical-align:middle;
+    margin:0 0.15em;
+}
+
+.logo-classe{
+    font-family:'Sharp Grotesk Semibold', sans-serif;
+    font-weight:600;
+}
